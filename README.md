@@ -37,6 +37,12 @@ Exemplo de respostas:
 }
 ```
 Status 401 - Falha: Usuário não autenticado
+Exemplo de Erro 401:
+```
+{
+    "err": "Token Inválido"
+}
+```
 
 #### GET /game/{id}
 Este EndPoint recebe o parametro ID e retorna um game
