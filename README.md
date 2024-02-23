@@ -11,6 +11,31 @@ Este ENDPoint retorna a listagem de todos os games cadastrados no BD.
 Nenhum
 ##### Respostas
 Status 200 - Ok: Retorna a lista de games
+Exemplo de respostas:
+```
+{
+    "games": [
+        {
+            "id": 123,
+            "title": "Doom",
+            "year": 2000,
+            "price": 68
+        },
+        {
+            "id": 4,
+            "title": "Top Gear",
+            "year": 2008,
+            "price": 80
+        },
+        {
+            "id": 6,
+            "title": "Minecraft",
+            "year": 2010,
+            "price": 800
+        }
+    ]
+}
+```
 Status 401 - Falha: Usuário não autenticado
 
 #### GET /game/{id}
